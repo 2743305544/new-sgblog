@@ -5,9 +5,9 @@ server:
     max-http-header-size: 8096
 spring:
   datasource:
-    url: jdbc:mysql://149.88.64.85:3306/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: xu.123456
+    url: jdbc:mysql://xxxxxxx/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: xxxxxx
+    password: xxxxxxxx
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
   servlet:
@@ -16,7 +16,7 @@ spring:
       max-request-size: 20MB
 #  data:
 #    redis:
-#      host: shiyilink.top
+#      host: xxxxxxxxxxx
 #      password: xxxxxxxx
 mybatis-plus:
   configuration:
@@ -28,7 +28,7 @@ mybatis-plus:
       logic-not-delete-value: 0
       id-type: auto
 oss:
-  accessKey: 2oYQkpKRVacb21BGWh67Xta_HZdW-l8zR1JqoBPW
-  secretKey: NmzJxj0437Ygy6x3M4IPkva7ZSx88OAk4lVmW2iG
-  bucket: shiyioblog
-  httpUrl: shqf3oy8q.hb-bkt.clouddn.com
+  accessKey: xxxxxxxx
+  secretKey: xxxxxxxx
+  bucket: xxxxxxx
+  httpUrl: xxxxxxxx
