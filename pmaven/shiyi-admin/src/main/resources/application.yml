@@ -5,9 +5,9 @@ server:
     max-http-header-size: 8096
 spring:
   datasource:
-    url: jdbc:mysql://149.88.64.85:3306/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: xu.123456
+    url: jdbc:mysql://xxxxxxx:3306/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: xxxxxxxx
+    password: xxxxxxxx
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
   servlet:
